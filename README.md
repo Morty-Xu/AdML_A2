@@ -108,5 +108,3 @@ python test.py --config config.json --resume /path/to/checkpoint
 
 ### 实验结果
 实验采用小批量梯度下降法，SGD优化器（初始学习率为0.1，动量为0.5），学习率调整机制为StepLR（$step_size=30$,$gamma=0.1$)，共训练80个epoch。最终，验证集的精确度为99.06%，测试集精确度为99.12%，达到了很好的效果。
-
-## Extra：使用ResNet-18网络
