@@ -50,10 +50,10 @@ python test.py --config config.json --resume /path/to/checkpoint
 
 在没有Dropout方法的情况下，训练结果如图所示：
 
-![w.o. Dropout](./pic_report/w.o.Dropout.png)
+![w.o. Dropout](./pic_report/w.o.%20Dropout-loss.png)
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">图1.没有Dropout方法的accuracy</center> 
 
-![w.o. Dropout-loss](./pic_report/w.o.Dropout-loss.png)
+![w.o. Dropout-loss](./pic_report/w.o.%20Dropout-loss.png)
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">图2.没有Dropout方法的loss</center> 
 
 可以看到，模型在$step=200$左右时开始过拟合。
